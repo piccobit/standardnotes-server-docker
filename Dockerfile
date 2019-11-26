@@ -18,7 +18,8 @@ RUN apk add --update --no-cache \
     mariadb-dev \
     nodejs \
     tzdata \
-    zlib-dev
+    zlib-dev \
+    yarn
 
 RUN git clone $PROJECT_REPO $PROJECT_DIR && \
     cd $PROJECT_DIR && \
