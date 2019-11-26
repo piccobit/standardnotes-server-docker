@@ -3,7 +3,7 @@
 FROM ruby:2-alpine
 
 ENV PROJECT_REPO=https://github.com/standardfile/ruby-server
-ENV PROJECT_COMMIT=40b99331863ca0de7dfdb96c81cf875da25e319f
+ENV PROJECT_COMMIT=master
 ENV PROJECT_DIR=/data/src/
 
 # Build and test dependencies.
