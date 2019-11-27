@@ -30,6 +30,7 @@ WORKDIR $PROJECT_DIR
 RUN gem install bundler:2.0.2
 RUN bundle install
 RUN bundle exec rake assets:precompile
+RUN rails db:migrate
 
 # See https://github.com/brianmario/mysql2/issues/1023
 RUN mkdir ./lib/mariadb && ln -s /usr/lib/mariadb/plugin ./lib/mariadb/plugin
