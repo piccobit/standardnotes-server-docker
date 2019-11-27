@@ -2,7 +2,7 @@
 
 FROM ruby:2-alpine
 
-ENV PROJECT_REPO=https://github.com/standardfile/ruby-server
+ENV PROJECT_REPO=https://github.com/piccobit/ruby-server
 ENV PROJECT_COMMIT=master
 ENV PROJECT_DIR=/data/src/
 
